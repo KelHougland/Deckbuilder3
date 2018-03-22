@@ -9,7 +9,24 @@ using DeckBuilder3.Models;
 namespace DeckBuilder3.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+
     {
+
+        public DbSet<Card> Cards { get; set; }
+
+        public DbSet<Deck> Decks { get; set; }
+
+        public DbSet<Collection> Collections { get; set; }
+
+        public DbSet<Comment> Comments { get; set; }
+
+        public DbSet<CardDeck> CardDecks { get; set; }
+
+        public DbSet<CardCollection> CardCollections { get; set; }
+
+        public DbSet<Reply> Replies { get; set; }
+
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
