@@ -1,0 +1,520 @@
+1,opusi_001,6,Fire,Guardian,Auron,9000,Forward,X
+2,opusi_002,5,Fire,Guardian,Auron,9000,Forward,X
+3,opusi_003,2,Fire,Standard Unit,Red Mage,,Backup,III
+4,opusi_004,1,Fire,,Ifrit,,Summon,FFT
+5,opusi_005,2,Fire,Warrior,Warrior of Light,5000,Forward,DF-I
+6,opusi_006,5,Fire,Knight,Garland,8000,Forward,DFF-I
+7,opusi_007,2,Fire,NORA,Gadot,4000,Forward,XIII
+8,opusi_008,2,Fire,Standard Unit,Ranger,,Backup,III
+9,opusi_009,2,Fire,SOLDIER,Cloud,5000,Forward,VII
+10,opusi_010,2,Fire,Standard Unit,Black Mage,,Backup,III
+11,opusi_011,1,Fire,Standard Unit,Evoker,,Backup,III
+12,opusi_012,3,Fire,SOLDIER,Zack,6000,Forward,VII
+13,opusi_013,3,Fire,Ravager,Sazh,,Backup,XIII
+14,opusi_014,3,Fire,Standard Unit,Samurai,6000,Forward,FFT
+15,opusi_015,5,Fire,Guardian,Jecht,8000,Forward,DFF-X
+16,opusi_016,2,Fire,Martial Artist,Tifa,4000,Forward,VII
+17,opusi_017,2,Fire,L'Cie,Dajh,,Backup,XIII
+18,opusi_018,9,Fire,,Bahamut,,Summon,XIII
+19,opusi_019,2,Fire,Chocobo Chick,Chocobo Chick,,Backup,XIII
+20,opusi_020,4,Fire,Commando,Fang,7000,Forward,XIII
+21,opusi_021,4,Fire,Rebel,Firion,8000,Forward,II
+22,opusi_022,4,Fire,Warrior,Firion,7000,Forward,DFF-II
+23,opusi_023,3,Fire,,Brynhildr,,Summon,XIII
+24,opusi_024,3,Fire,Standard Unit,Magus,,Backup,III
+25,opusi_025,2,Fire,Standard Unit,Squire,5000,Forward,FFT
+26,opusi_026,1,Fire,Standard Unit,Squire,3000,Forward,FFT
+27,opusi_027,3,Fire,Mirage Keeper,Lann,7000,Forward,WOFF
+28,opusi_028,4,Fire,Mirage Keeper,Reynn,,Backup,WOFF
+29,opusi_029,2,Fire,Warrior,Red XIII,5000,Forward,VII
+30,opusi_030,3,Fire,NORA,Lebreau,,Backup,XIII
+31,opusi_031,3,Ice,Standard Unit,Chemist,,Backup,FFT
+32,opusi_032,2,Ice,Standard Unit,Chemist,,Backup,FFT
+33,opusi_033,2,Ice,Squire,Argath,3000,Forward,FFT
+34,opusi_034,3,Ice,Astrologer,Orran,,Backup,FFT
+35,opusi_035,2,Ice,Standard Unit,Bard,4000,Forward,III
+36,opusi_036,2,Ice,Standard Unit,Bard,,Backup,III
+37,opusi_037,5,Ice,Genome,Kuja,9000,Forward,DFF-IX
+38,opusi_038,3,Ice,,Shiva,,Summon,XIII
+39,opusi_039,1,Ice,,Shiva,,Summon,FFT
+40,opusi_040,1,Ice,Standard Unit,Summoner,,Backup,FFT
+41,opusi_041,3,Ice,SeeD,Squall,6000,Forward,VIII
+42,opusi_042,4,Ice,SeeD,Squall,6000,Forward,DFF-VIII
+43,opusi_043,1,Ice,Commando,Snow,3000,Forward,XIII
+44,opusi_044,5,Ice,SOLDIER,Sephiroth,7000,Forward,VII
+45,opusi_045,2,Ice,L'Cie,Serah,,Backup,XIII
+46,opusi_046,3,Ice,Magitek Knight,Terra,6000,Forward,DFF-VI
+47,opusi_047,4,Ice,Magitek Knight,Terra,7000,Forward,DFF-VI
+48,opusi_048,4,Ice,Standard Unit,Devout,,Backup,III
+49,opusi_049,2,Ice,Standard Unit,Time Mage,,Backup,FFT
+50,opusi_050,3,Ice,Standard Unit,Knight,7000,Forward,FFT
+51,opusi_051,3,Ice,Mevyn,Nooj,7000,Forward,X
+52,opusi_052,5,Ice,,Hades,,Summon,VII
+53,opusi_053,3,Ice,Standard Unit,Summoner,,Backup,III
+54,opusi_054,4,Ice,Standard Unit,Dark Knight,7000,Forward,III
+55,opusi_055,3,Ice,Standard Unit,Dark Knight,8000,Forward,III
+56,opusi_056,4,Ice,Rebel,Josef,8000,Forward,II
+57,opusi_057,3,Ice,Duke,Duke Larg,,Backup,FFT
+58,opusi_058,5,Ice,Marksman,Laguna,9000,Forward,VIII
+59,opusi_059,4,Ice,Marksman,Laguna,7000,Forward,DFF-VIII
+60,opusi_060,3,Ice,Dark Knight,Leon,9000,Forward,II
+61,opusi_061,4,Wind,,Alexander,,Summon,XIII
+62,opusi_062,5,Wind,,Valefor,,Summon,X
+63,opusi_063,5,Wind,Sky Pirate,Vaan,7000,Forward,DFF-XII
+64,opusi_064,3,Wind,Ancient,Aerith,,Backup,VII
+65,opusi_065,2,Wind,Ancient,Aerith,,Backup,VII
+66,opusi_066,3,Wind,Standard Unit,Dancer,,Backup,FFT
+67,opusi_067,4,Wind,Ninja,Onion Knight,8000,Forward,DFF-III
+68,opusi_068,1,Wind,Standard Unit,Evoker,,Backup,III
+69,opusi_069,2,Wind,Standard Unit,Thief,5000,Forward,III
+70,opusi_070,2,Wind,Standard Unit,Thief,,Backup,III
+71,opusi_071,2,Wind,Genome,Zidane,3000,Forward,DFF-IX
+72,opusi_072,4,Wind,Pilot,Cid Highwind,8000,Forward,VII
+73,opusi_073,2,Wind,Pilot,Cid Highwind,5000,Forward,VII
+74,opusi_074,1,Wind,,Sylph,,Summon,FFT
+75,opusi_075,3,Wind,Standard Unit,Chocobo,4000,Forward,VII
+76,opusi_076,1,Wind,Standard Unit,Chocobo,3000,Forward,VII
+77,opusi_077,5,Wind,Standard Unit,Devout,,Backup,III
+78,opusi_078,3,Wind,Standard Unit,Ninja,6000,Forward,III
+79,opusi_079,3,Wind,Mother,Nora,,Backup,XIII
+80,opusi_080,5,Wind,Wanderer,Bartz,9000,Forward,DFF-V
+81,opusi_081,4,Wind,Wanderer,Bartz,8000,Forward,DFF-V
+82,opusi_082,3,Wind,Ravager,Hope,7000,Forward,XIII
+83,opusi_083,4,Wind,Rebel,Maria,,Backup,II
+84,opusi_084,2,Wind,Scion of the Seventh Dawn,Y'shtola,3000,Forward,DFF-XIV
+85,opusi_085,3,Wind,Ninja,Yuffie,6000,Forward,VII
+86,opusi_086,1,Wind,Ninja,Yuffie,3000,Forward,VII
+87,opusi_087,1,Wind,Standard Unit,Archer,3000,Forward,FFT
+88,opusi_088,2,Wind,Standard Unit,Archer,,Backup,FFT
+89,opusi_089,2,Wind,Al Bhed,Rikku,,Backup,X
+90,opusi_090,4,Wind,Al Bhed,Rikku,7000,Forward,X
+91,opusi_091,4,Earth,Lieutenant,Amador,,Backup,XIII
+92,opusi_092,2,Earth,Standard Unit,Dark Knight,3000,Forward,FFT
+93,opusi_093,4,Earth,Saboteur,Vanille,7000,Forward,XIII
+94,opusi_094,5,Earth,Gunslinger,Vincent,9000,Forward,VII
+95,opusi_095,3,Earth,Creator of Worlds,Enna Kros,,Backup,WOFF
+96,opusi_096,2,Earth,Standard Unit,Mystic,3000,Forward,FFT
+97,opusi_097,4,Earth,Rebel,Guy,8000,Forward,II
+98,opusi_098,6,Earth,Judge,Gabranth,8000,Forward,DFF-XII
+99,opusi_099,4,Earth,Standard Unit,Blackc Belt,8000,Forward,III
+100,opusi_100,2,Earth,Standard Unit,Black Belt,,Backup,III
+101,opusi_101,4,Earth,Faction Leader,Gippal,8000,Forward,X
+102,opusi_102,4,Earth,Guardian,Kimahri,8000,Forward,X
+103,opusi_103,2,Earth,Guardian,Kimahri,,Backup,X
+104,opusi_104,4,Earth,Mage,Kefka,,Backup,DFF-VI
+105,opusi_105,1,Earth,Standard Unit,Evoker,,Backup,III
+106,opusi_106,1,Earth,,Golem,,Summon,FFT
+107,opusi_107,7,Earth,Mage,Shantotto,,Backup,DFF-XI
+108,opusi_108,3,Earth,Dark Knight,Cecil,7000,Forward,DFF-IV
+109,opusi_109,2,Earth,Companion,Serafie,6000,Forward,WOFF
+110,opusi_110,2,Earth,,Titan,,Summon,FFT
+111,opusi_111,2,Earth,Companion,Tama,,Backup,WOFF
+112,opusi_112,3,Earth,Knight,Delita,9000,Forward,FFT
+113,opusi_113,2,Earth,Warrior,Delita,5000,Forward,FFT
+114,opusi_114,3,Earth,AVALANCHE Operative,Barret,7000,Forward,VII
+115,opusi_115,2,Earth,Standard Unit,Geomancer,,Backup,III
+116,opusi_116,5,Earth,Abhorrent One,Prishe,8000,Forward,DFF-XI
+117,opusi_117,3,Earth,,Hecatoncheir,,Summon,XIII
+118,opusi_118,5,Earth,Machinist,Mustadio,,Backup,FFT
+119,opusi_119,2,Earth,Standard Unit,Monk,6000,Forward,FFT
+120,opusi_120,2,Earth,Standard Unit,Monk,,Backup,FFT
+121,opusi_121,2,Lightning,Standard Unit,Red Mage,,Backup,III
+122,opusi_122,5,Lightning,Wizard,Exdeath,9000,Forward,DFF-V
+123,opusi_123,4,Lightning,,Odin,,Summon,XIII
+124,opusi_124,7,Lightning,,Odin,,Summon,FFT
+125,opusi_125,3,Lightning,Sage,Onion Knight,6000,Forward,DFF-III
+126,opusi_126,5,Lightning,Sword Saint,Orlandeau,7000,Forward,FFT
+127,opusi_127,6,Lightning,Dragoon,Kain,8000,Forward,DFF-IV
+128,opusi_128,3,Lightning,Praetorian,Gilgamesh,7000,Forward,DFF-V
+129,opusi_129,4,Lightning,Praetorian,Gilgamesh,8000,Forward,DFF-V
+130,opusi_130,2,Lightning,Standard Unit,Black Mage,,Backup,FFT
+131,opusi_131,3,Lightning,Spy,Cait Sith,5000,Forward,VII
+132,opusi_132,1,Lightning,Spy,Cait Sith,2000,Forward,VII
+133,opusi_133,4,Lightning,Standard Unit,Sage,,Backup,III
+134,opusi_134,3,Lightning,Duke,Duke Goltanna,,Backup,FFT
+135,opusi_135,6,Lightning,Warlock,Golbez,9000,Forward,DFF-IV
+136,opusi_136,3,Lightning,Knight,Zalbaag,5000,Forward,FFT
+137,opusi_137,4,Lightning,Summoner,Seymour,,Backup,X
+138,opusi_138,1,Lightning,Standard Unit,Summoner,,Backup,FFT
+139,opusi_139,3,Lightning,Standard Unit,Summoner,,Backup,III
+140,opusi_140,3,Lightning,Standard Unit,Magus,,Backup,III
+141,opusi_141,6,Lightning,Ravager,Lightning,9000,Forward,XIII
+142,opusi_142,4,Lightning,Ravager,Lightning,4000,Forward,XIII
+143,opusi_143,1,Lightning,,Ramuh,,Summon,FFT
+144,opusi_144,4,Lightning,Knight,Ramza,5000,Forward,FFT
+145,opusi_145,3,Lightning,Warrior,Ramza,7000,Forward,FFT
+146,opusi_146,4,Lightning,Dragoon,Ricard,8000,Forward,II
+147,opusi_147,3,Lightning,Standard Unit,Dragoon,6000,Forward,FFT
+148,opusi_148,3,Lightning,Standard Unit,Dragoon,5000,Forward,FFT
+149,opusi_149,5,Lightning,Guardian,Lulu,,Backup,X
+150,opusi_150,3,Lightning,Guardian,Lulu,,Backup,X
+151,opusi_151,5,Water,Knight,Agrias,6000,Forward,FFT
+152,opusi_152,5,Water,Witch,Ultimecia,9000,Forward,DFF-VIII
+153,opusi_153,3,Water,Cleric,Alma,,Backup,FFT
+154,opusi_154,5,Water,Pirate,Vaan,6000,Forward,DFF-XII
+155,opusi_155,4,Water,Warrior,Warrior of Light,8000,Forward,DFF-I
+156,opusi_156,2,Water,Princess,Ovelia,,Backup,FFT
+157,opusi_157,2,Water,Standard Unit,Scholar,,Backup,III
+158,opusi_158,6,Water,Wraith,Cloud of Darkness,7000,Forward,DFF-III
+159,opusi_159,1,Water,Standard Unit,Evoker,,Backup,III
+160,opusi_160,2,Water,Princess,Gordon,4000,Forward,II
+161,opusi_161,2,Water,Standard Unit,White Mage,,Backup,FFT
+162,opusi_162,5,Water,Paladin,Cecil,8000,Forward,DFF-IV
+163,opusi_163,4,Water,Guardian,Tidus,7000,Forward,DFF-X
+164,opusi_164,4,Water,Guardian,Tidus,8000,Forward,X
+165,opusi_165,2,Water,Standard Unit,Knight,5000,Forward,III
+166,opusi_166,1,Water,Standard Unit,Knight,3000,Forward,III
+167,opusi_167,2,Water,Standard Unit,Viking,1000,Forward,III
+168,opusi_168,3,Water,Standard Unit,Geomancer,6000,Forward,FFT
+169,opusi_169,2,Water,Standard Unit,Geomancer,,Backup,FFT
+170,opusi_170,2,Water,,Fairy,,Summon,FFT
+171,opusi_171,3,Water,Mage,Minwu,,Backup,II
+172,opusi_172,1,Water,,Moogle,,Summon,FFT
+173,opusi_173,2,Water,Standard Unit,Mime,4000,Forward,FFT
+174,opusi_174,2,Water,PSICOM,Yaag Rosch,,Backup,VIII
+175,opusi_175,3,Water,NORA,Yuj,7000,Forward,XIII
+176,opusi_176,5,Water,Summoner,Yuna,,Backup,X
+177,opusi_177,2,Water,Summoner,Yuna,,Backup,X
+178,opusi_178,3,Water,,Leviathan,,Summon,FFT
+179,opusi_179,3,Water,Pirate,Leila,6000,Forward,II
+180,opusi_180,3,Water,Blitzballer,Wakka,,Backup,X
+181,opusi_181,2,Light,Onion Knight,Onion Knight,5000,Forward,DFF-III
+182,opusi_182,4,Light,SOLDIER,Cloud,8000,Forward,DFF-VII
+183,opusi_183,2,Light,Goddess of Harmony,Cosmos,,Backup,DFF
+184,opusi_184,2,Dark,God of Chaos,Chaos,,Backup,DFF-I
+185,opusi_185,5,Dark,Emperor,The Emperor,9000,Forward,DFF-II
+186,opusi_186,8,Dark,War Hero,Sephiroth,8000,Forward,DFF-VII
+187,opusi_187,6,Fire,SOLDIER,Cloud,9000,Forward,VII
+188,opusi_188,4,Fire,Martial Arts Master,Zangan,,Backup,VII
+189,opusi_189,4,Fire,Martial Artist,Tifa,8000,Forward,VII
+190,opusi_190,2,Fire,,Bahamut Fury,,Summon,VII
+191,opusi_191,3,Fire,Warrior,Red XIII,7000,Forward,VII
+192,opusi_192,3,Earth,Gunslinger,Vincent,7000,Forward,VII
+193,opusi_193,4,Earth,AVALANCHE Operative,Wedge,,Backup,VII
+194,opusi_194,3,Earth,AVALANCHE Operative,Jessie,,Backup,VII
+195,opusi_195,2,Earth,AVALANCHE Operative,Barret,6000,Forward,VII
+196,opusi_196,2,Ice,The Cavalry,Cid Raines,5000,Forward,XIII
+197,opusi_197,2,Ice,Saboteur,Jihl Nabaat,,Backup,XIII
+198,opusi_198,3,Ice,Sentinel,Snow,7000,Forward,XIII
+199,opusi_199,3,Ice,Saboteur,Serah,6000,Forward,XIII
+200,opusi_200,3,Ice,Moogle,Mog (XIII-2),,Backup,XIII
+201,opusi_201,4,Lightning,Commando,Gilgamesh,8000,Forward,XIII
+202,opusi_202,3,Lightning,Commando,Noel,5000,Forward,XIII
+203,opusi_203,2,Lightning,NORA,Maqui,,Backup,XIII
+204,opusi_204,6,Lightning,Ravager,Lightning,8000,Forward,XIII
+205,opusi_205,2,Lightning,The Cavalry,Rygdea,5000,Forward,XIII
+206,opusi_206,3,Wind,Gullwings,Brother,,Backup,X
+207,opusi_207,2,Wind,,Valefor,,Summon,X
+208,opusi_208,3,Wind,Gullwings,Paine,7000,Forward,X
+209,opusi_209,2,Wind,Praetor,Baralai,,Backup,X
+210,opusi_210,4,Wind,Gullwings,Rikku,6000,Forward,X
+211,opusi_211,4,Water,Illusion,Shuyin,,Backup,X
+212,opusi_212,6,Water,Guardian,Tidus,9000,Forward,X
+213,opusi_213,2,Water,Summoner,Yuna,5000,Forward,X
+214,opusi_214,2,Water,Summoner,Lenne,,Backup,X
+215,opusi_215,4,Water,Blitzballer,Wakka,8000,Forward,X
+216,opusii_001,3,Fire,Sniper,Irvine,,Backup,VIII
+217,opusii_002,2,Fire,,Ifrit,,Summon,VIII
+218,opusii_003,3,Fire,Warrior,Ward,5000,Forward,VIII
+219,opusii_004,2,Fire,Manikin,Ephemeral Phantom,5000,Forward,DFF
+220,opusii_005,2,Fire,Standard Unit,Sage,,Backup,III
+221,opusii_006,2,Fire,Ravager,Sazh,3000,Forward,XIII
+222,opusii_007,5,Fire,Emperor,Emperor Xande,9000,Forward,XIV
+223,opusii_008,3,Fire,SeeD Candidate,Zell,6000,Forward,VIII
+224,opusii_009,2,Fire,SeeD Candidate,Selphie,,Backup,VIII
+225,opusii_010,2,Fire,Standard Unit,Warrior,5000,Forward,XIV
+226,opusii_011,5,Fire,Martial Artist,Tifa,9000,Forward,DFF-VII
+227,opusii_012,4,Fire,Sage,Tellah,,Backup,IV
+228,opusii_013,2,Fire,Standard Unit,Ninja,4000,Forward,III
+229,opusii_014,3,Fire,Captain,Basch,7000,Forward,XIII
+230,opusii_015,3,Fire,Black Mage,Palom,6000,Forward,IV
+231,opusii_016,1,Fire,Apprentice Mage,Palom,1000,Forward,IV
+232,opusii_017,4,Fire,Judge,Bergan,8000,Forward,XII
+233,opusii_018,2,Fire,Standard Unit,Summoner,,Backup,III
+234,opusii_019,2,Fire,,Belias: the Gigas,,Summon,XII
+235,opusii_020,3,Fire,Manikin,Imitation Liegeman,6000,Forward,DFF
+236,opusii_021,2,Fire,Moogle,Montblanc,,Backup,XII
+237,opusii_022,3,Fire,Warrior of Light,Luneth,7000,Forward,III
+238,opusii_023,4,Fire,Archfiend,Rubicante,9000,Forward,IV
+239,opusii_024,3,Fire,Tsviets,Rosso,5000,Forward,VII
+240,opusii_025,6,Ice,Tsviets,Weiss,8000,Forward,VII
+241,opusii_026,4,Ice,Consul,Vayne,8000,Forward,XII
+242,opusii_027,2,Ice,Standard Unit,Scholar,,Backup,XIV
+243,opusii_028,2,Ice,Manikin,Semblance of a Lion,5000,Forward,DFF
+244,opusii_029,3,Ice,Manikin,Imaginary Champion,7000,Forward,DFF
+245,opusii_030,4,Ice,Bard,Edward,,Backup,IV
+246,opusii_031,2,Ice,Bard,Edward,5000,Forward,IV
+247,opusii_032,2,Ice,Standard Unit,Bard,,Backup,XIV
+248,opusii_033,3,Ice,Standard Unit,Black Mage,,Backup,III
+249,opusii_034,3,Ice,Judge,Zargabaath,5000,Forward,XII
+250,opusii_035,3,Ice,Tsviets,Shelke,5000,Forward,VII
+251,opusii_036,2,Ice,Scientist,Shalua,,Backup,VII
+252,opusii_037,2,Ice,PSICOM,Jihl Nabaat,,Backup,XIII
+253,opusii_038,5,Ice,SeeD Candidate,Squall,6000,Forward,DFF-VIII
+254,opusii_039,4,Ice,Manikin,Capricious Reaper,8000,Forward,DFF
+255,opusii_040,2,Ice,Standard Unit,Time Mage,,Backup,FFT
+256,opusii_041,2,Ice,Research Chief,Doctor Cid,,Backup,XII
+257,opusii_042,3,Ice,Tsviets,Nero,7000,Forward,VII
+258,opusii_043,2,Ice,Moogle,Hurdy,,Backup,XII
+259,opusii_044,5,Ice,,Mateus: the Corrupt,,Summon,XII
+260,opusii_045,2,Ice,,Moomba,,Summon,VIII
+261,opusii_046,3,Ice,Marksman,Laguna,5000,Forward,VIII
+262,opusii_047,3,Ice,Resistance Fighter,Rinoa,7000,Forward,VIII
+263,opusii_048,3,Ice,Resistance Fighter,Rinoa,,Backup,VIII
+264,opusii_049,1,Wind,,Asura,,Summon,IV
+265,opusii_050,2,Wind,Warrior of Light,Arc,,Backup,III
+266,opusii_051,4,Wind,Sky Pirate,Vaan,8000,Forward,XII
+267,opusii_052,1,Wind,Sky Pirate,Vaan,3000,Forward,XII
+268,opusii_053,4,Wind,Ninja,Edge,8000,Forward,IV
+269,opusii_054,2,Wind,Ninja,Edge,3000,Forward,IV
+270,opusii_055,5,Wind,Praetor,Kan-E-Senna,,Backup,XIV
+271,opusii_056,2,Wind,Standard Unit,Ranger,,Backup,III
+272,opusii_057,3,Wind,Engineer,Cid Pollendina,7000,Forward,IV
+273,opusii_058,3,Wind,Standard Unit,White Mage,,Backup,XIV
+274,opusii_059,2,Wind,Manikin,Capricious Thief,5000,Forward,DFF
+275,opusii_060,1,Wind,Standard Unit,Chocobo,1000,Forward,VIII
+276,opusii_061,1,Wind,Standard Unit,Ninja,3000,Forward,XIV
+277,opusii_062,2,Wind,Moogle,Nono,,Backup,XII
+278,opusii_063,3,Wind,Gullwings,Paine,3000,Forward,X
+279,opusii_064,3,Wind,Archfiend,Barbariccia,7000,Forward,IV
+280,opusii_065,4,Wind,Sky Pirate,Balthier,8000,Forward,XII
+281,opusii_066,3,Wind,Sky Pirate,Balthier,6000,Forward,XII
+282,opusii_067,2,Wind,Dancer,Penelo,,Backup,XII
+283,opusii_068,2,Wind,Sky Pirate,Fran,,Backup,XII
+284,opusii_069,3,Wind,Manikin,Fallacious Wanderer,6000,Forward,DFF
+285,opusii_070,1,Wind,,Shemhazi: the Whisperer,,Summon,XII
+286,opusii_071,2,Wind,Gullwings,Rikku,,Backup,X
+287,opusii_072,5,Wind,Sky Pirate,Reddas,9000,Forward,XII
+288,opusii_073,4,Earth,Standard Unit,Dark Knight,5000,Forward,XIV
+289,opusii_074,3,Earth,Manikin,Warrior of Antiquity,5000,Forward,DFF
+290,opusii_075,4,Earth,Warrior of Light,Ingus,8000,Forward,III
+291,opusii_076,6,Earth,Medic,Vanille,8000,Forward,XIII
+292,opusii_077,4,Earth,Gunslinger,Vincent,8000,Forward,VII
+293,opusii_078,4,Earth,Gunslinger,Vincent,9000,Forward,VII
+294,opusii_079,2,Earth,Sphere Hunter,Ormi,5000,Forward,X
+295,opusii_080,3,Earth,,Carbuncle,,Summon,FFT
+296,opusii_081,7,Earth,Judge,Gabranth,9000,Forward,XII
+297,opusii_082,2,Earth,Standard Unit,Ranger,,Backup,III
+298,opusii_083,2,Earth,Standard Unit,Machinist,,Backup,XIV
+299,opusii_084,3,Earth,Sphere Hunter,Logos,7000,Forward,X
+300,opusii_085,2,Earth,Archfiend,Scarmiglione,5000,Forward,IV
+301,opusii_086,2,Earth,Moogle,Sorbet,,Backup,XII
+302,opusii_087,1,Earth,,Hashmal: Bringer of Order,,Summon,XII
+303,opusii_088,2,Earth,Headhunter,Ba'Gamnan,5000,Forward,XII
+304,opusii_089,2,Earth,Standard Unit,Monk,,Backup,XIV
+305,opusii_090,5,Earth,Monk,Yang,8000,Forward,IV
+306,opusii_091,2,Earth,Monk,Yang,5000,Forward,IV
+307,opusii_092,2,Earth,Manikin,Phantasmal Harlequin,,Backup,DFF
+308,opusii_093,4,Earth,Flame General,Raubahn,,Backup,XIV
+309,opusii_094,3,Earth,Summoner,Rydia,7000,Forward,IV
+310,opusii_095,4,Earth,Summoner,Rydia,,Backup,IV
+311,opusii_096,4,Earth,Sphere Hunter,Leblanc,8000,Forward,X
+312,opusii_097,4,Lightning,Agent,Al-Cid,6000,Forward,XII
+313,opusii_098,4,Lightning,Technologist,Amon,8000,Forward,XIV
+314,opusii_099,6,Lightning,Witch,Edea,6000,Forward,VIII
+315,opusii_100,4,Lightning,Witch,Edea,,Backup,VIII
+316,opusii_101,6,Lightning,Wizard,Exdeath,8000,Forward,DVV-V
+317,opusii_102,2,Lightning,Moogle,Gurdy,,Backup,XII
+318,opusii_103,3,Lightning,Dragoon,Kain,5000,Forward,DFF-IV
+319,opusii_104,4,Lightning,Dragoon,Kain,6000,Forward,IV
+320,opusii_105,3,Lightning,Warrior,Kiros,7000,Forward,VIII
+321,opusii_106,3,Lightning,Emperor,Gramis,,Backup,XII
+322,opusii_107,3,Lightning,,Cyclops,,Summon,FFT
+323,opusii_108,2,Lightning,Standard Unit,Black Mage,,Backup,XIV
+324,opusii_109,8,Lightning,Warlock,Golbez,9000,Forward,IV
+325,opusii_110,3,Lightning,SeeD Candidate,Seifer,6000,Forward,VIII
+326,opusii_111,3,Lightning,SeeD Candidate,Seifer,5000,Forward,VIII
+327,opusii_112,4,Lightning,Manikin,Fleeting Flash,6000,Forward,DFF
+328,opusii_113,3,Lightning,Judge,Drace,6000,Forward,XII
+329,opusii_114,2,Lightning,Standard Unit,Ninja,3000,Forward,FFT
+330,opusii_115,2,Lightning,Standard Unit,Ninja,,Backup,FFT
+331,opusii_116,3,Lightning,Lunarian,Fusoya,,Backup,IV
+332,opusii_117,3,Lightning,,Adrammelech: the Wroth,,Summon,XII
+333,opusii_118,3,Lightning,Manikin,Arborous Simulacrum,7000,Forward,DFF
+334,opusii_119,2,Lightning,Commissioner,Reeve,,Backup,VII
+335,opusii_120,2,Lightning,Standard Unit,Dragoon,5000,Forward,XIV
+336,opusii_121,3,Water,Princess,Ashe,7000,Forward,XII
+337,opusii_122,2,Water,Knight,Agrias,5000,Forward,FFT
+338,opusii_123,2,Water,Manikin,Ephemeral Vision,4000,Forward,DFF
+339,opusii_124,2,Water,Archfiend,Cagnazzo,5000,Forward,IV
+340,opusii_125,3,Water,Manikin,Semblance of a Witch,7000,Forward,DFF
+341,opusii_126,5,Water,Judge,Ghis,8000,Forward,XII
+342,opusii_127,5,Water,Instructor,Quistis,7000,Forward,VIII
+343,opusii_128,3,Water,Standard Unit,Summoner,,Backup,XIV
+344,opusii_129,5,Water,Paladin,Cecil,9000,Forward,DFF-IV
+345,opusii_130,2,Water,Standard Unit,Astrologian,,Backup,XIV
+346,opusii_131,3,Water,Standard Unit,Knight,7000,Forward,XIV
+347,opusii_132,1,Water,Standard Unit,Viking,1000,Forward,III
+348,opusii_133,4,Water,,Cuchulainn: the Impure,,Summon,XII
+349,opusii_134,2,Water,Moogle,Horne,,Backup,XII
+350,opusii_135,3,Water,White Mage,Porom,6000,Forward,IV
+351,opusii_136,1,Water,Apprentice Mage,Porom,1000,Forward,IV
+352,opusii_137,4,Water,Admiral,Merlwyb,,Backup,XIV
+353,opusii_138,3,Water,Songstress,Yuna,7000,Forward,X
+354,opusii_139,2,Water,Fourthborn Son of the Emperor,Larsa,5000,Forward,XII
+355,opusii_140,1,Water,,Leviathan,,Summon,VIII
+356,opusii_141,2,Water,Warrior of Light,Revia,5000,Forward,III
+357,opusii_142,3,Water,Songstress,Lenne,7000,Forward,X
+358,opusii_143,3,Water,White Mage,Rosa,,Backup,IV
+359,opusii_144,1,Water,White Mage,Rosa,3000,Forward,IV
+360,opusii_145,4,Light,Warrior of Light,Warrior of Light,8000,Forward,DFF-1
+361,opusii_146,3,Light,Lunarian,Fusoya,,Backup,IV
+362,opusii_147,4,Dark,Emperor,The Emperor,8000,Forward,III
+363,opusii_148,4,Dark,Lunarian,Zemus,,Backup,IV
+364,opusiii_001,2,Fire,Standard Unit,Red Mage,,Backup,V
+365,opusiii_002,4,Fire,,Ifrit,,Summon,Type-0
+366,opusiii_003,3,Fire,Class Zero Cadet,Ace,7000,Forward,Type-0
+367,opusiii_004,4,Fire,Knight,Garland,8000,Forward,DFF-I
+368,opusiii_005,3,Fire,Manikin,Imaginary Brawler,7000,Forward,DFF
+369,opusiii_006,5,Fire,Class Zero Cadet,King,9000,Forward,Type-0
+370,opusiii_007,2,Fire,Standard Unit,Bard,,Backup,V
+371,opusiii_008,3,Fire,Shinra Soldier,Cloud,7000,Forward,VII
+372,opusiii_009,2,Fire,Class Zero Cadet,Cater,,Backup,Type-0
+373,opusiii_010,5,Fire,Ninja,Gekkou,7000,Forward,IV
+374,opusiii_011,2,Fire,Standard Unit,Gladiator,3000,Forward,V
+375,opusiii_012,5,Fire,SOLDIER,Zack,8000,Forward,VII
+376,opusiii_013,5,Fire,Fighter,Amarant,9000,Forward,IX
+377,opusiii_014,2,Fire,Class Zero Cadet,Cinque,5000,Forward,Type-0
+378,opusiii_015,3,Fire,Black Mage,Black Waltz 2,,Backup,IX
+379,opusiii_016,4,Fire,Black Mage,Palom,7000,Forward,IV
+380,opusiii_017,3,Fire,Black Mage,Vivi,4000,Forward,IX
+381,opusiii_018,2,Fire,Black Mage,Vivi,,Backup,IX
+382,opusiii_019,5,Fire,Pirate,Faris,8000,Forward,V
+383,opusiii_020,4,Fire,,Phoenix,,Summon,VII
+384,opusiii_021,2,Fire,Standard Unit,Caner,,Backup,V
+385,opusiii_022,4,Fire,Class Zero Cadet,Machina,8000,Forward,Type-0
+386,opusiii_023,2,Fire,Engineer,Luca,,Backup,IV
+387,opusiii_024,6,Fire,Archfiend,Rubicante,9000,Forward,LOV-IV
+388,opusiii_025,2,Ice,Commanding Officer,Emina,,Backup,Type-0
+389,opusiii_026,2,Ice,Researcher,Kazusa,,Backup,Type-0
+390,opusiii_027,4,Ice,Brigadier General,Qator Bashtar,8000,Forward,Type-0
+391,opusiii_028,4,Ice,Manikin,Semblance of a Gunslinger,8000,Forward,DFF
+392,opusiii_029,3,Ice,King of Damcyan,Edward,,Backup,IV
+393,opusiii_030,3,Ice,Genome,Kuja,7000,Forward,LOV-IX
+394,opusiii_031,5,Ice,Instructor,Kurasame,9000,Forward,Type-0
+395,opusiii_032,2,Ice,,Shiva,,Summon,DFF
+396,opusiii_033,4,Ice,SOLDIER,Genesis,7000,Forward,VII
+397,opusiii_034,6,Ice,Avatar,Genesis Avatar,9000,Forward,VII
+398,opusiii_035,3,Ice,Tsviets,Shelke,,Backup,VII
+399,opusiii_036,5,Ice,Grand Marshal,Cid Aulstyne,9000,Forward,Type-0
+400,opusiii_037,4,Ice,,Zalera: the Death Seraph,,Summon,XII
+401,opusiii_038,5,Ice,Dawn Warrior,Xezat,8000,Forward,V
+402,opusiii_039,4,Ice,War Hero,Sephiroth,8000,Forward,DFF-VII
+403,opusiii_040,4,Ice,Deepground Soldier,DGS Trooper 1st Class,8000,Forward,VII
+404,opusiii_041,3,Ice,Standard Unit,Deepground Soldier,5000,Forward,VII
+405,opusiii_042,2,Ice,Standard Unit,Deepground Soldier,3000,Forward,VII
+406,opusiii_043,2,Ice,Standard Unit,Time Mage,,Backup,V
+407,opusiii_044,2,Ice,Secretary,Harley,,Backup,IV
+408,opusiii_045,3,Ice,L'Cie,White Tiger l'Cie Qun'Mi,6000,Forward,Type-0
+409,opusiii_046,3,Ice,L'Cie,White Tiger l'Cie Nimbus,8000,Forward,Type-0
+410,opusiii_047,5,Ice,Standard Unit,Caner,,Backup,V
+411,opusiii_048,2,Ice,Standard Unit,Mystic Knight,5000,Forward,V
+412,opusiii_049,2,Wind,Dominion Legionary,Izana,5000,Forward,Type-0
+413,opusiii_050,3,Wind,Ancient,Aerith,,Backup,VII
+414,opusiii_051,3,Wind,Class Zero Cadet,Eight,7000,Forward,Type-0
+415,opusiii_052,1,Wind,Standard Unit,Dancer,3000,Forward,V
+416,opusiii_053,3,Wind,Standard Unit,Ranger,7000,Forward,V
+417,opusiii_054,1,Wind,Chocobo,Black Chocobo,3000,Forward,V
+418,opusiii_055,2,Wind,Standard Unit,Thief,,Backup,V
+419,opusiii_056,3,Wind,Thief,Zidane,3000,Forward,IX
+420,opusiii_057,2,Wind,Class Zero Cadet,Seven,4000,Forward,Type-0
+421,opusiii_058,3,Wind,Manikin,Sky Pirate Replica,7000,Forward,DFF
+422,opusiii_059,3,Wind,King,King Tycoon,,Backup,V
+423,opusiii_060,1,Wind,Ninja,Tsukinowa,2000,Forward,IV
+424,opusiii_061,3,Wind,,Diablos,,Summon,Type-0
+425,opusiii_062,2,Wind,Class Zero Cadet,Deuce,,Backup,Type-0
+426,opusiii_063,3,Wind,Dawn Warrior,Dorgann,6000,Forward,V
+427,opusiii_064,4,Wind,Class Zero Cadet,Trey,8000,Forward,Type-0
+428,opusiii_065,3,Wind,Freelancer,Bartz,6000,Forward,V
+429,opusiii_066,4,Wind,Archfiend,Barbariccia,7000,Forward,LOV-IV
+430,opusiii_067,3,Wind,Dragon,Wind Drake,7000,Forward,V
+431,opusiii_068,2,Wind,Standard Unit,Geomancer,,Backup,V
+432,opusiii_069,2,Wind,Ninja,Yuffie,5000,Forward,VII
+433,opusiii_070,2,Wind,Standard Unit,Oracle,,Backup,V
+434,opusiii_071,3,Wind,,Chaos: Walker of the Wheel,,Summon,XII
+435,opusiii_072,4,Wind,Class Zero Cadet,Rem,,Backup,Type-0
+436,opusiii_073,2,Earth,Monk,Ursula,6000,Forward,IV
+437,opusiii_074,4,Earth,,Atmos,,Summon,DFF-IX
+438,opusiii_075,2,Earth,Manikin,Horror of Antiquity,6000,Forward,DFF
+439,opusiii_076,3,Earth,Mysterious Woman,Masked Woman,,Backup,WOFF
+440,opusiii_077,5,Earth,Dawn Warrior,Galuf,9000,Forward,V
+441,opusiii_078,2,Earth,Mystic Knight,Krile,6000,Forward,V
+442,opusiii_079,2,Earth,Mage,Kefka,5000,Forward,DFF-VI
+443,opusiii_080,5,Earth,L'Cie,Black Tortoise l'Cie Gilgamesh,8000,Forward,Type-0
+444,opusiii_081,2,Earth,Standard Unit,Summoner,,Backup,V
+445,opusiii_082,2,Earth,Archfiend,Scarmiglione,6000,Forward,LOV-IV
+446,opusiii_083,2,Earth,Knight,Segwarides,,Backup,WOFF
+447,opusiii_084,2,Earth,Standard Unit,WRO Member,6000,Forward,VII
+448,opusiii_085,2,Earth,Standard Unit,WRO Member,,Backup,VII
+449,opusiii_086,3,Earth,Commander,WRO Commander,7000,Forward,VII
+450,opusiii_087,7,Earth,,Zeromus: the Condemner,,Summon,XII
+451,opusiii_088,5,Earth,Knight,Delita,9000,Forward,FFT
+452,opusiii_089,3,Earth,Girl,The Girl Who Forgot Her Name,,Backup,WOFF
+453,opusiii_090,2,Earth,Standard Unit,Ninja,,Backup,V
+454,opusiii_091,3,Earth,Standard Unit,Berserker,8000,Forward,V
+455,opusiii_092,6,Earth,Abhorrent One,Prishe,9000,Forward,DFF-XI
+456,opusiii_093,5,Earth,Knight,Brandelis,6000,Forward,WOFF
+457,opusiii_094,2,Earth,Knight,Pellinore,,Backup,WOFF
+458,opusiii_095,4,Earth,Monk,Yang,8000,Forward,IV
+459,opusiii_096,3,Earth,Summoner,Rydia,,Backup,LOV-IV
+460,opusiii_097,3,Lightning,Archsorceress,Arecia Al-Rashia,,Backup,Type-0
+461,opusiii_098,3,Lightning,SOLDIER,Angeal,7000,Forward,VII
+462,opusiii_099,4,Lightning,Test Subject,Angeal Penance,7000,Forward,VII
+463,opusiii_100,5,Lightning,Wizard,Exdeath,9000,Forward,V
+464,opusiii_101,5,Lightning,Wizard,Enuo,9000,Forward,V
+465,opusiii_102,4,Lightning,,Odin,,Summon,Type-0
+466,opusiii_103,4,Lightning,Praetorian,Gilgamesh,8000,Forward,V
+467,opusiii_104,3,Lightning,Class Zero Cadet,Queen,7000,Forward,Type-0
+468,opusiii_105,4,Lightning,Black Mage,Black Waltz 3,7000,Forward,IX
+469,opusiii_106,2,Lightning,Standard Unit,Black Mage,,Backup,V
+470,opusiii_107,2,Lightning,Standard Unit,Black Mage,,Backup,V
+471,opusiii_108,6,Lightning,Dawn Warrior,Kelger,8000,Forward,V
+472,opusiii_109,2,Lightning,Class Zero Cadet,Sice,5000,Forward,Type-0
+473,opusiii_110,3,Lightning,Ninja,Zangetsu,6000,Forward,IV
+474,opusiii_111,1,Lightning,Class Zero Cadet,Jack,7000,Forward,Type-0
+475,opusiii_112,4,Lightning,,Exodus: the Judge-Sal,,Summon,XII
+476,opusiii_113,4,LIghtning,Class Zero Cadet,Nine,8000,Forward,Type-0
+477,opusiii_114,3,Lightning,Dragoon,Freya,5000,Forward,IX
+478,opusiii_115,2,Lightning,Standard Unit,Caner,,Backup,V
+479,opusiii_116,2,Lightning,Standard Unit,Mystic Knight,4000,Forward,V
+480,opusiii_117,3,Lightning,Manikin,Simulacrum of a Hero,7000,Forward,DFF
+481,opusiii_118,5,Lightning,Warrior,Lightning,8000,Forward,DFF-XIII
+482,opusiii_119,3,Lightning,Knight,Ramza,7000,Forward,FFT
+483,opusiii_120,2,Lightning,Standard Unit,Dragoon,5000,Forward,V
+484,opusiii_121,2,Water,Standard Unit,Blue mage,,Backup,V
+485,opusiii_122,2,Water,Moogle,Artemicion,,Backup,IX
+486,opusiii_123,3,Water,,Famfrit: the Darkening Cloud,,Summon,XII
+487,opusiii_124,4,Water,Ninja,Izayoi,8000,Forward,IV
+488,opusiii_125,2,Water,Manikin,Ephemeral Summoner,4000,Forward,DFF
+489,opusiii_126,2,Water,Summoner,Eiko,,Backup,IX
+490,opusiii_127,3,Water,Summoner,Eiko,,Backup,IX
+491,opusiii_128,2,Water,Standard Unit,Dancer,3000,Forward,V
+492,opusiii_129,3,Water,Princess,Garnet,7000,Forward,IX
+493,opusiii_130,3,Water,Archfiend,Cagnazzo,5000,Forward,LOV-IV
+494,opusiii_131,3,Water,Sage,Ghido,,Backup,V
+495,opusiii_132,4,Water,Queen,Quacho Queen,,Backup,WOFF
+496,opusiii_133,4,Water,Blue Mage,Quina,5000,Forward,IX
+497,opusiii_134,4,Water,Standard Unit,Summoner,,Backup,V
+498,opusiii_135,6,Water,,Syldra,,Summon,V
+499,opusiii_136,1,Water,Standard Unit,White Mage,3000,Forward,V
+500,opusiii_137,5,Water,Knight,Steiner,6000,Forward,IX
+501,opusiii_138,4,Water,Red Wing,Ceodore,8000,Forward,IV
+502,opusiii_139,2,Water,Standard Unit,Knight,3000,Forward,V
+503,opusiii_140,4,Water,White Mage,Porom,7000,Forward,IV
+504,opusiii_141,3,Water,Moogle,Mog (IX),,Backup,IX
+505,opusiii_142,1,Water,Mime,Famed Mimic Gogo,7000,Forward,V
+506,opusiii_143,3,Water,Epopt,Leonora,,Backup,IV
+507,opusiii_144,5,Water,Princess,Lenna,7000,Forward,V
+508,opusiii_145,7,Light,,Ultima: the High Seraph,,Summon,XII
+509,opusiii_146,7,Light,Goddess,Minerva,10000,Forward,VII
+510,opusiii_147,7,Dark,,Zodiark: Keeper of Precepts,,Summon,XII
+511,opusiii_148,5,Dark,Utter Pandemonium,Feral Chaos,10000,Forward,DFF-I
+512,opusiii_149,2,Fire,Black Mage,Vivi,2000,Forward,IX
+513,opusiii_150,3,Wind,Moogle,Moogle (Class Zero),,Backup,Type-0
+514,opusiii_151,2,Lightning,Class Zero Cadet,Queen,4000,Forward,Type-0
+515,opusiii_152,3,Water,Princess,Garnet,5000,Forward,IX
+516,opusiii_153,6,Light,Class Zero Cadet,Ace,7000,Forward,Type-0
+517,opusiii_154,3,Light,Genome,Zidane,7000,Forward,IX
+518,PR_001,4,Dark,War Hero,Sephiroth,8000,Forward,VII
+519,PR_002,3,Earth,Gunslinger,Vincent,7000,Forward,VII
+520,PR_003,5,Lightning,Knight,Lightning,9000,Forward,XII

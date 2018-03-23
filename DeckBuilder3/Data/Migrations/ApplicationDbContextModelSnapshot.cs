@@ -71,6 +71,148 @@ namespace DeckBuilder3.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("DeckBuilder3.Models.Card", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Code");
+
+                    b.Property<int>("Cost");
+
+                    b.Property<string>("Element");
+
+                    b.Property<string>("Job");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("Power");
+
+                    b.Property<string>("Role");
+
+                    b.Property<string>("Type");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Cards");
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.CardCollection", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("Amount");
+
+                    b.Property<int>("CardID");
+
+                    b.Property<int>("CollectionID");
+
+                    b.Property<int>("Foil");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CardID");
+
+                    b.HasIndex("CollectionID");
+
+                    b.ToTable("CardCollections");
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.CardDeck", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("Amount");
+
+                    b.Property<int>("CardID");
+
+                    b.Property<int>("DeckID");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CardID");
+
+                    b.HasIndex("DeckID");
+
+                    b.ToTable("CardDecks");
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.Collection", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("UserID");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Collections");
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.Comment", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CommentText");
+
+                    b.Property<int>("DeckID");
+
+                    b.Property<string>("UserID");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("DeckID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Comments");
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.Deck", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("Amount");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("UserID");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Decks");
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.Reply", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("CommentID");
+
+                    b.Property<string>("ReplyContent");
+
+                    b.Property<string>("UserID");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CommentID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Replies");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -177,6 +319,70 @@ namespace DeckBuilder3.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens");
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.CardCollection", b =>
+                {
+                    b.HasOne("DeckBuilder3.Models.Card", "Card")
+                        .WithMany("CardCollections")
+                        .HasForeignKey("CardID")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("DeckBuilder3.Models.Collection", "Collection")
+                        .WithMany("CardCollections")
+                        .HasForeignKey("CollectionID")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.CardDeck", b =>
+                {
+                    b.HasOne("DeckBuilder3.Models.Card", "Card")
+                        .WithMany("CardDecks")
+                        .HasForeignKey("CardID")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("DeckBuilder3.Models.Deck", "Deck")
+                        .WithMany("CardDecks")
+                        .HasForeignKey("DeckID")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.Collection", b =>
+                {
+                    b.HasOne("DeckBuilder3.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID");
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.Comment", b =>
+                {
+                    b.HasOne("DeckBuilder3.Models.Deck", "Deck")
+                        .WithMany("Comments")
+                        .HasForeignKey("DeckID")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("DeckBuilder3.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID");
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.Deck", b =>
+                {
+                    b.HasOne("DeckBuilder3.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID");
+                });
+
+            modelBuilder.Entity("DeckBuilder3.Models.Reply", b =>
+                {
+                    b.HasOne("DeckBuilder3.Models.Comment", "Comment")
+                        .WithMany()
+                        .HasForeignKey("CommentID")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("DeckBuilder3.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
