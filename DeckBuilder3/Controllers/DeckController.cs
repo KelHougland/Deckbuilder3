@@ -8,6 +8,8 @@ using DeckBuilder3.Data;
 using DeckBuilder3.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
+
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -46,7 +48,8 @@ namespace DeckBuilder3.Controllers
         {
             if (ModelState.IsValid)
             {
-                string CurrentUserID = User.Identity.Name ; 
+                ClaimsPrincipal currentUser = this.User;
+                var CurrentUserID = currentUser.FindFirst(ClaimTypes.NameIdentifier).Value;
                 Deck newDeck = new Deck
                 {
                     Name = addDeckViewModel.Name,
