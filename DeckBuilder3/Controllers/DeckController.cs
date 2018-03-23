@@ -46,9 +46,11 @@ namespace DeckBuilder3.Controllers
         {
             if (ModelState.IsValid)
             {
+                string CurrentUserID = User.Identity.Name ; 
                 Deck newDeck = new Deck
                 {
-                    Name = addDeckViewModel.Name
+                    Name = addDeckViewModel.Name,
+                    UserID = CurrentUserID
                 };
 
                 context.Decks.Add(newDeck);
