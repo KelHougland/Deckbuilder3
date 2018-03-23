@@ -1,0 +1,14 @@
+﻿@model DeckBuilder3.ViewModels.AddDeckViewModel
+
+@{ ViewBag.Title = "New Deck";}
+
+<h1>@ViewBag.Title</h1>
+
+<form asp-controller="Deck" asp-action="Add" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input class="form-control" asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <input type="submit" value="Add Deck" />
+</form>

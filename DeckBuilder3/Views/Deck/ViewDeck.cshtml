@@ -1,0 +1,60 @@
+﻿@model DeckBuilder3.ViewModels.ViewDeckViewModel
+
+@{ ViewBag.Title = Model.Deck.Name;}
+
+<h1>@ViewBag.Title</h1>
+
+<head>
+    <style>
+        main {
+            display: flex;
+            align-content: flex-start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            margin: 25px;
+        }
+
+        div {
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+
+<h3> Deck Size: @Model.Deck.Amount</h3>
+
+@if (Model.Cards.Count > 0)
+{
+    <ul>
+        @foreach (var card in Model.Cards)
+        {
+            <li>@card.Card.Name  : @card.Amount</li>
+
+        }
+    </ul>
+
+    @foreach (var card in Model.Cards)
+    {
+        @for (var i = 1; i <= card.Amount; i++)
+        {
+            <a href="@String.Format("/images/{0}.jpg", card.Card.Code)" target="_blank"><img src=@String.Format("/images/{0}.jpg", card.Card.Code) height="300" width="200" /></a>
+
+        }
+
+    }
+
+
+
+
+}
+
+@if (Model.Cards.Count == 0)
+{
+    <p>This deck has no cards!</p>
+
+}
+
+<p><a asp-controller="Deck" asp-action="EditDeck" asp-route-id="@Model.Deck.ID">Edit this Deck</a></p>

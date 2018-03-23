@@ -1,0 +1,72 @@
+﻿@model DeckBuilder3.ViewModels.CardSortViewModel
+
+@{ ViewBag.Title = "Cards";}
+
+<h1>@ViewBag.Title</h1>
+
+<head>
+    <style>
+        main {
+            display: flex;
+            align-content: flex-start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            margin: 25px;
+        }
+
+        div {
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+
+<form asp-controller="Cards" asp-actions="Index" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <select asp-for="Name" asp-items="Model.Names"></select>
+
+
+
+        <label asp-for="Job"></label>
+        <select asp-for="Job" asp-items="Model.Jobs"></select>
+
+
+
+        <label asp-for="Element"></label>
+        <select asp-for="Element" asp-items="Model.Elements"></select>
+
+
+
+        <label asp-for="Cost"></label>
+        <select asp-for="Cost" asp-items="Model.Costs"></select>
+
+
+
+        <label asp-for="Role"></label>
+        <select asp-for="Role" asp-items="Model.Roles"></select>
+
+
+
+        <label asp-for="Type"></label>
+        <select asp-for="Type" asp-items="Model.Types"></select>
+    </div>
+
+    <input type="submit" value="Filter Cards" />
+</form>
+
+
+<main>
+
+    @foreach (var card in Model.Cards)
+    {
+        <div>
+            <a href="@String.Format("images/{0}.jpg", card.Code)" target="_blank"><img src=@String.Format("images/{0}.jpg", card.Code) height="300" width="200" /></a>
+        </div>
+
+
+    }
+</main>

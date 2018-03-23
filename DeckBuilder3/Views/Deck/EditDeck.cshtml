@@ -1,0 +1,105 @@
+﻿@model DeckBuilder3.ViewModels.EditDeckViewModel
+
+
+
+<h1>Editing <a asp-controller="Deck" asp-action="ViewDeck" asp-route-id="@Model.Deck.ID">@Model.Deck.Name</a></h1>
+
+<head>
+    <style>
+        main {
+            display: flex;
+            align-content: flex-start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            margin: 25px;
+        }
+
+        div {
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+
+<h3> Deck Size: @Model.Deck.Amount</h3>
+
+@if (Model.CardDecks.Count > 0)
+{
+
+    <ul>
+        @foreach (var card in Model.CardDecks)
+        {
+            <li>@card.Card.Name  : @card.Amount</li>
+
+        }
+    </ul>
+}
+
+@if (Model.CardDecks.Count == 0)
+{
+    <p>This deck has no cards!</p>
+
+}
+
+
+<form asp-controller="Deck" asp-actions="EditDeck" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <select asp-for="Name" asp-items="Model.Names"></select>
+
+
+
+        <label asp-for="Job"></label>
+        <select asp-for="Job" asp-items="Model.Jobs"></select>
+
+
+
+        <label asp-for="Element"></label>
+        <select asp-for="Element" asp-items="Model.Elements"></select>
+
+
+
+        <label asp-for="Cost"></label>
+        <select asp-for="Cost" asp-items="Model.Costs"></select>
+
+
+
+        <label asp-for="Role"></label>
+        <select asp-for="Role" asp-items="Model.Roles"></select>
+
+
+
+        <label asp-for="Type"></label>
+        <select asp-for="Type" asp-items="Model.Types"></select>
+        <input type="hidden" name="DeckID" value="@Model.Deck.ID" />
+    </div>
+
+    <input type="submit" value="Filter Cards" />
+</form>
+
+
+<main>
+
+    @foreach (var card in Model.Cards)
+    {
+        <div>
+            <a href="@String.Format("/images/{0}.jpg", card.Code)" target="_blank"><img src=@String.Format("/images/{0}.jpg", card.Code) height="300" width="200" /></a>
+            <form asp-controller="Deck" asp-action="AddCard" method="post">
+                <input type="hidden" name="DeckID" value="@Model.Deck.ID" />
+                <input type="hidden" name="CardID" value="@card.ID" />
+                <input type="submit" value="Add Card" style="float:left" />
+            </form>
+            <form asp-controller="Deck" asp-action="RemoveCard" method="post">
+                <input type="hidden" name="DeckID" value="@Model.Deck.ID" />
+                <input type="hidden" name="CardID" value="@card.ID" />
+                <input type="submit" value="Remove Card" style="float:right" />
+            </form>
+
+        </div>
+
+
+    }
+</main>

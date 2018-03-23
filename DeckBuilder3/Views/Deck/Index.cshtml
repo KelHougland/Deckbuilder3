@@ -1,0 +1,20 @@
+﻿@model List<DeckBuilder3.Models.Deck>
+
+@{ ViewBag.Title = "Decks";}
+
+<h1>@ViewBag.Title</h1>
+
+<ul>
+
+    @foreach (var deck in Model)
+    {
+        <li><a asp-controller="Deck" asp-action="ViewDeck" asp-route-id="@deck.ID">@deck.Name</a></li>
+    }
+</ul>
+
+@if (Model.Count == 0)
+{
+    <p>You have no decks!</p>
+}
+
+<a asp-controller="Deck" asp-action="Add">Start a Deck!</a>
