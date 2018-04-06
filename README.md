@@ -1,0 +1,1 @@
+This is a deckbuilder website for the Final Fantasy Trading Card Game. It includes user login. Not yet implemented on the front end are comment and reply capabilities, but these features are implemented on the back end. Users can create decks, add card to them, and review them.
